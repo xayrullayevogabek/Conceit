@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+}
+nav ul{
+    margin-left: 500px;
+}
+i{
+    margin-right: 10px;
+}
+.but{
+    margin-left: 70px;
+    padding: 7px;
+    border: 1px solid black;
+    background-color: transparent;
+    color: black;
+    transition: .5s;
+}
+.but:hover{
+    transform: scale(1.1);
+}
+img{
+    background-position: center;
+    background-size: cover;
+}
+.carusel1{
+    position: relative;
+}
+.center{
+    color: rgb(255, 255, 255);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    height: 200px;
+    width: 800px;
+}
+.h1{
+    font-size: 100px;
+    letter-spacing: 5px;
+    font-weight: bold;
+    text-shadow: 4px 4px 2px rgb(50, 49, 49);
+}
+.p{
+    font-size: 16px;
+}
+.but1{
+    width: 150px;
+    padding: 7px;
+    background-color: red;
+    color: white;
+    text-transform: uppercase;
+    border: none;
+    transition: .5s;
+}
+.but2{
+    width: 150px;
+    padding: 7px;
+    background-color: transparent;
+    color: rgb(3, 0, 0);
+    text-transform: uppercase;
+    border: 1px solid black;
+    margin-left: 20px;
+    transition: .5s;
+}
+.but1:hover{
+    transform: scale(1.1);
+}
+.but2:hover{
+    transform: scale(1.1);
+}
+.aside{
+    height: 600px;
+    text-align: center;
+    padding: 50px;
+}
+.aside1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: left;
+}
